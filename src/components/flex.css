@@ -1,0 +1,24 @@
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: flex-end;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.flex-item {
+  flex-grow: 0;
+  flex-shrink: 1;
+  order: 0;
+  flex-basis: auto;
+  align-self: auto;
+  width: 100%;
+}
+
+.flex-grow {
+  flex-grow: 1;
+}
+
