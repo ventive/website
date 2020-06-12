@@ -7,12 +7,22 @@
 body {
     font-size: 1.3rem;
     font-family: 'Cabin', sans-serif;
-    background: #f1f1f1;
+    background: #Eff1f3;
 }
 
 a {
     color: #333;
     text-decoration: none;
+}
+
+.logo {
+    font-family: 'Source Code Pro', monospace;
+    color: #173753;
+}
+
+.logo > .accent {
+    font-weight: 300;
+    color: #FE8F2D;
 }
 
 .main-header {
@@ -22,7 +32,7 @@ a {
     align-items: center;
     justify-content: center;
     position: relative;
-    color: #333;
+    color: #1b4353;
 }
 
 .promo-image {
@@ -73,7 +83,9 @@ a {
 
 .links a {
     font-size: 1.5rem;
+    padding-right: 1rem;
 }
+
 
 .links p {
     font-size: 0.8rem;
@@ -111,6 +123,19 @@ a {
 @media screen and (max-width: 1000px) {
     .main-header .foreground {
         flex-direction: column;
+        height: auto;
+    }
+
+    .details {
+        order: 1;
+    }
+
+    .promo-image {
+        order: 0;
+    }
+
+    .copyright {
+        order: 2;
     }
 
     .details {
@@ -123,7 +148,7 @@ a {
     }
 
     .promo-image img {
-        width: 300px;
+        width: 200px;
     }
 
     .inner {
