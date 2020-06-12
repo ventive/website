@@ -123,7 +123,6 @@ a {
 @media screen and (max-width: 1000px) {
     .main-header .foreground {
         flex-direction: column;
-        height: auto;
     }
 
     .details {
@@ -148,7 +147,7 @@ a {
     }
 
     .promo-image img {
-        width: 200px;
+        width: 300px;
     }
 
     .inner {
